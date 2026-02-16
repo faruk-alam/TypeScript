@@ -1,0 +1,27 @@
+download and install node latest version from official node website.
+After installing- control node version
+
+node --version
+or
+node -v
+
+Install TypeScript -
+npm install -g typescript
+
+Verify Installation -
+tsc --version
+
+compile typescript and convert javascript -
+tsc file_name.ts
+
+for output -
+node file_name.js
+
+tsconfig file -
+tsc --init
+
+for automatic output -
+tsc --watch
+
+run and output output automaticallyv-
+node --watch dist/file_name.js
